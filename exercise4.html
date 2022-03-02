@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>General exercises in Javascript number 4</title>
+  <script src="exercise4.js"></script>
+  <style>
+    #txt {
+      font-size: 40px;
+      width: 180px;
+      height: 50px;
+      text-align: center;
+      margin: auto;
+      border: 4px solid red;
+      border-radius: 33%;
+    }
+
+    #math1,
+    #math2,
+    #math3,
+    #math4,
+    #b1,
+    #dates,
+    #d1 {
+      font-size: 20px;
+      color: navy;
+      border-radius: 10px solid purple;
+    }
+  </style>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+
+<body onload="startTime()">
+  <div id="txt"></div>
+  <button type="button" id="b1" onclick="mathFunction()">perform Math functions</button><br>
+  <button type="button" id="d1" onclick="dateFunction()">perform Date functions</button>
+  <p id="math1"></p>
+  <p id="math2"></p>
+  <p id="math3"></p>
+  <p id="math4"></p>
+  <p>-----------------------------------------------------------------------------</p>
+  <p id="dates"></p>
+</body>
+
+</html>
