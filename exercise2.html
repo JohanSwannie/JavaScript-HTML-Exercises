@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>General exercises in Javascript number 2</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="exercise2.js"></script>
+</head>
+
+<body>
+  <h1 id="hh1">Click me and I will change color , escape into a border and have different text</h1>
+  <h1 id="p3"><strong>DIS BAIE LEKKER BY DIE SEE</strong> </h1>
+  <p id="p1">If you click on me, I will disappear !</p>
+  <p id="p2">Click me and I will get bigger !</p>
+  <p id="calc1"></p>
+  <p id="cust1"></p>
+  <p id="docos"></p>
+  <p id="string"></p>
+  <p id="groups"></p>
+  <h2 id="lotto"></h2>
+  <h2 id="fruits"></h2>
+  <h2 id="greeting"></h2>
+  <button type="button" onclick="calcFunction(15)">click for calculation</button>
+  <button type="button" onclick="document.getElementById('cust1').innerHTML=
+  customers.cust4()">click for first 3 customers</button>
+  <button type="button" onclick="document.getElementById('docos').innerHTML=
+  documents['doc3']['group3']['subgrp6']['ssubgrp2']">click for documents</button>
+  <button type="button" onclick="document.getElementById('string').innerHTML=
+  'The first index of beautiful in strng1 is : ' + strng1.indexOf('beautiful')
+  + ' -  the last index of beautiful in strng1 is : ' + strng1.lastIndexOf('beautiful')
+  + ' - and the length of strng1 is : ' + strng1.length">find string</button>
+  <button type="button" onclick="listDisp()">Lotto Numbers</button>
+  <button type="button" onclick="fruitDisp()">click to display fruit advantages</button>
+
+  <form>
+    <input type="button" onclick="myFunction('Good Morning ', 'Stellie')" value="Morning">
+    <input type="button" onclick="myFunction('Goodnight ', 'Stellie')" value="Evening">
+  </form>
+</body>
+
+</html>
