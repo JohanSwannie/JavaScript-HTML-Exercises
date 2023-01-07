@@ -22,7 +22,7 @@
     function mapFunction(value, index, array) {
       return value * 4.25
     }
-    var nrs3 = [19, 308, 27, 81, 38, 71, 55, 8, 45]
+    var nrs3 = [19, 308, 27, 81, 38, 71, 55, 8, 45]    
     var under80 = nrs3.filter(filterFunction)
     document.write('<p id="no5">' + 'The items remaining in nrs3 after (filter) are now : ' +
       '[' + under80 + ']' + '</p>')
